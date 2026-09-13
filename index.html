@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McLaren Senna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar" id="topbar">
+    <div class="logo">McLAREN</div>
+
+    <nav class="nav">
+        <a href="#inicio">INÍCIO</a>
+        <a href="#historia">HISTÓRIA</a>
+        <a href="#senna">SENNA</a>
+        <a href="#engine">MOTOR</a>
+        <a href="#engenharia">ENGENHARIA</a>
+        <a href="#gtr">GTR</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#inicio">INÍCIO</a>
+    <a href="#historia">HISTÓRIA</a>
+    <a href="#senna">SENNA</a>
+    <a href="#engine">MOTOR</a>
+    <a href="#engenharia">ENGENHARIA</a>
+    <a href="#gtr">GTR</a>
+</div>
+
+<main>
+
+<section class="hero" id="inicio">
+
+    <img
+        src="mclaren.png"
+        id="heroImage"
+        alt="McLaren Senna"
+    >
+
+    <div class="hero-vignette"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-lines"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-brand">
+            McLAREN AUTOMOTIVE
+        </div>
+
+        <div class="hero-line"></div>
+
+        <h1>SENNA</h1>
+
+        <div class="hero-subtitle">
+            THE ULTIMATE ROAD CAR
+        </div>
+
+        <div class="hero-specs">
+
+            <div>
+                <strong>800</strong>
+                <span>PS</span>
+            </div>
+
+            <div>
+                <strong>800</strong>
+                <span>NM</span>
+            </div>
+
+            <div>
+                <strong>4.0</strong>
+                <span>V8 BITURBO</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        SCROLL
+        <span></span>
+    </div>
+
+    <div class="quebra-cor"></div>
+
+</section>
+
+
+<section class="intro reveal">
+
+    <div class="section-label">01 / THE MACHINE</div>
+
+    <h2>
+        UM CARRO CRIADO<br>
+        PARA NÃO SER COMUM.
+    </h2>
+
+    <div class="text-grid">
+
+        <p>
+            O McLaren Senna nasceu com uma missão clara:
+            colocar o piloto no centro da experiência.
+        </p>
+
+        <p>
+            Cada superfície, cada componente e cada detalhe
+            foi desenvolvido para extrair o máximo desempenho.
+        </p>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="stat">
+            <strong data-number="800">0</strong>
+            <span>PS</span>
+        </div>
+
+        <div class="stat">
+            <strong data-number="335">0</strong>
+            <span>KM/H</span>
+        </div>
+
+        <div class="stat">
+            <strong data-number="2">0</strong>
+            <span>0–100 S</span>
+        </div>
+
+        <div class="stat">
+            <strong data-number="1198">0</strong>
+            <span>KG</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="history reveal" id="historia">
+
+    <div class="section-label">02 / McLAREN</div>
+
+    <h2>
+        UMA HISTÓRIA<br>
+        DE VELOCIDADE.
+    </h2>
+
+    <div class="history-content">
+
+        <div>
+            <span class="history-year">1963</span>
+
+            <h3>Bruce McLaren</h3>
+
+            <p>
+                Bruce McLaren fundou a Bruce McLaren Motor Racing,
+                dando início a uma das histórias mais importantes
+                do automobilismo mundial.
+            </p>
+        </div>
+
+        <div>
+            <span class="history-year">1966</span>
+
+            <h3>Fórmula 1</h3>
+
+            <p>
+                A McLaren entrou oficialmente na Fórmula 1,
+                iniciando sua trajetória na principal categoria
+                do automobilismo.
+            </p>
+        </div>
+
+        <div>
+            <span class="history-year">1968</span>
+
+            <h3>Primeira vitória</h3>
+
+            <p>
+                A equipe conquistou sua primeira vitória na Fórmula 1,
+                começando uma longa tradição de sucesso nas pistas.
+            </p>
+        </div>
+
+        <div>
+            <span class="history-year">2010</span>
+
+            <h3>McLaren Automotive</h3>
+
+            <p>
+                A McLaren Automotive tornou-se uma empresa independente
+                dedicada à produção de carros esportivos de alto desempenho.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="timeline reveal">
+
+    <div class="section-label">03 / LEGACY</div>
+
+    <h2>
+        A LENDA<br>
+        DE AYRTON SENNA.
+    </h2>
+
+    <div class="timeline-track">
+
+        <button class="year-btn active" data-year="1988">1988</button>
+        <button class="year-btn" data-year="1989">1989</button>
+        <button class="year-btn" data-year="1990">1990</button>
+        <button class="year-btn" data-year="1991">1991</button>
+        <button class="year-btn" data-year="1992">1992</button>
+        <button class="year-btn" data-year="1993">1993</button>
+
+    </div>
+
+    <div class="year-display">
+
+        <span id="yearNumber">1988</span>
+
+        <div>
+
+            <h3 id="yearTitle">
+                O começo de uma era
+            </h3>
+
+            <p id="yearText">
+                Ayrton Senna inicia sua trajetória pela McLaren
+                e conquista seu primeiro campeonato mundial.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="senna-section reveal" id="senna">
+
+    <div class="senna-content">
+
+        <div class="section-label">04 / AYRTON SENNA</div>
+
+        <h2>
+            UM NOME<br>
+            QUE VIROU LENDÁRIO.
+        </h2>
+
+        <p>
+            Ayrton Senna correu pela McLaren entre 1988 e 1993.
+            Durante esse período, conquistou três campeonatos
+            mundiais de Fórmula 1.
+        </p>
+
+        <div class="senna-numbers">
+
+            <div>
+                <strong>3</strong>
+                <span>CAMPEONATOS</span>
+            </div>
+
+            <div>
+                <strong>41</strong>
+                <span>VITÓRIAS</span>
+            </div>
+
+            <div>
+                <strong>35</strong>
+                <span>VITÓRIAS McLAREN</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="engine reveal" id="engine">
+
+    <div class="section-label">05 / POWERTRAIN</div>
+
+    <h2>
+        O CORAÇÃO<br>
+        DA SENNA.
+    </h2>
+
+    <div class="engine-layout">
+
+        <div class="engine-buttons">
+
+            <button class="engine-part active" data-engine="motor">
+                MOTOR
+            </button>
+
+            <button class="engine-part" data-engine="turbo">
+                TURBO
+            </button>
+
+            <button class="engine-part" data-engine="dry">
+                DRY SUMP
+            </button>
+
+            <button class="engine-part" data-engine="torque">
+                TORQUE
+            </button>
+
+        </div>
+
+        <div class="engine-info" id="engineInfo">
+
+            <span>ENGINE SYSTEM</span>
+
+            <h3>V8 4.0L</h3>
+
+            <p>
+                O coração da Senna é um V8 biturbo de 3.994 cc
+                desenvolvido para entregar 800 PS.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="technical-dark reveal">
+
+    <div class="technical-content">
+
+        <div class="technical-number">V8</div>
+
+        <div>
+
+            <span>3.994 CC</span>
+
+            <h3>TWIN-SCROLL TWIN TURBO</h3>
+
+            <p>
+                Um motor V8 biturbo desenvolvido para oferecer
+                resposta rápida, potência extrema e enorme torque.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="engineering reveal" id="engenharia">
+
+    <div class="section-label">06 / ENGINEERING</div>
+
+    <h2>
+        CADA DETALHE<br>
+        TEM UMA FUNÇÃO.
+    </h2>
+
+    <div class="engineering-layout">
+
+        <div class="engineering-buttons">
+
+            <button class="engineering-btn active" data-system="aero">
+                01
+            </button>
+
+            <button class="engineering-btn" data-system="suspension">
+                02
+            </button>
+
+            <button class="engineering-btn" data-system="brakes">
+                03
+            </button>
+
+            <button class="engineering-btn" data-system="chassis">
+                04
+            </button>
+
+            <button class="engineering-btn" data-system="tires">
+                05
+            </button>
+
+        </div>
+
+        <div class="engineering-display">
+
+            <span id="engineeringNumber">01</span>
+
+            <small id="engineeringLabel">
+                ACTIVE AERODYNAMICS
+            </small>
+
+            <h3 id="engineeringTitle">
+                O ar também é engenharia
+            </h3>
+
+            <p id="engineeringText">
+                A Senna utiliza aerodinâmica ativa para gerar níveis
+                extremos de downforce e melhorar o comportamento do carro.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="aero reveal">
+
+    <div class="section-label">07 / AERODYNAMICS</div>
+
+    <div class="aero-number">
+
+        <span>DOWNFORCE</span>
+
+        <strong>800+</strong>
+
+        <small>KG</small>
+
+    </div>
+
+    <div class="aero-cards">
+
+        <div class="aero-card">
+
+            <span>01</span>
+
+            <h3>ACTIVE WING</h3>
+
+            <p>
+                Aerodinâmica ativa ajustada de acordo com
+                as condições de condução.
+            </p>
+
+        </div>
+
+        <div class="aero-card">
+
+            <span>02</span>
+
+            <h3>DIFFUSER</h3>
+
+            <p>
+                O difusor contribui para o controle do fluxo
+                de ar sob o carro.
+            </p>
+
+        </div>
+
+        <div class="aero-card">
+
+            <span>03</span>
+
+            <h3>DOWNFORCE</h3>
+
+            <p>
+                O projeto aerodinâmico mantém o carro
+                pressionado contra o asfalto.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="performance reveal">
+
+    <div class="section-label">08 / PERFORMANCE</div>
+
+    <h2>
+        NÚMEROS<br>
+        QUE IMPRESSIONAM.
+    </h2>
+
+    <div class="cards-3">
+
+        <div class="performance-card">
+
+            <span>0–100 KM/H</span>
+
+            <strong>2.8</strong>
+
+            <small>SEGUNDOS</small>
+
+        </div>
+
+        <div class="performance-card">
+
+            <span>0–200 KM/H</span>
+
+            <strong>6.8</strong>
+
+            <small>SEGUNDOS</small>
+
+        </div>
+
+        <div class="performance-card">
+
+            <span>TOP SPEED</span>
+
+            <strong>335</strong>
+
+            <small>KM/H</small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="transmission reveal">
+
+    <div class="section-label">09 / TRANSMISSION</div>
+
+    <h2>
+        POTÊNCIA<br>
+        SOB CONTROLE.
+    </h2>
+
+    <div class="transmission-content">
+
+        <div class="big-spec">
+
+            <strong>7</strong>
+
+            <span>VELOCIDADES</span>
+
+        </div>
+
+        <div>
+
+            <h3>SEAMLESS SHIFT GEARBOX</h3>
+
+            <p>
+                A transmissão de dupla embreagem foi desenvolvida
+                para realizar trocas extremamente rápidas e manter
+                o motor sempre na faixa ideal de potência.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="chassis reveal">
+
+    <div class="section-label">10 / CHASSIS</div>
+
+    <h2>
+        LEVEZA<br>
+        É DESEMPENHO.
+    </h2>
+
+    <div class="chassis-grid">
+
+        <div>
+
+            <span>CARBON FIBRE</span>
+
+            <h3>MONOCELL III</h3>
+
+            <p>
+                Uma estrutura de fibra de carbono desenvolvida
+                para combinar rigidez estrutural e baixo peso.
+            </p>
+
+        </div>
+
+        <div>
+
+            <span>WEIGHT</span>
+
+            <h3>1.198 KG</h3>
+
+            <p>
+                O baixo peso contribui diretamente para aceleração,
+                frenagem, agilidade e eficiência.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="comparison reveal">
+
+    <div class="section-label">11 / SENNA vs GTR</div>
+
+    <h2>
+        DUAS MÁQUINAS.<br>
+        UMA FILOSOFIA.
+    </h2>
+
+    <div class="compare-buttons">
+
+        <button class="compare-btn active" data-compare="senna">
+            SENNA
+        </button>
+
+        <button class="compare-btn" data-compare="gtr">
+            SENNA GTR
+        </button>
+
+    </div>
+
+    <div class="comparison-display">
+
+        <h3 id="compareName">SENNA</h3>
+
+        <div class="comparison-stats">
+
+            <div>
+
+                <span>POTÊNCIA</span>
+
+                <strong id="comparePower">800</strong>
+
+                <small>PS</small>
+
+            </div>
+
+            <div>
+
+                <span>PESO</span>
+
+                <strong id="compareWeight">1.198 KG</strong>
+
+            </div>
+
+            <div>
+
+                <span>UTILIZAÇÃO</span>
+
+                <strong id="compareUse">ROAD + TRACK</strong>
+
+            </div>
+
+            <div>
+
+                <span>FILOSOFIA</span>
+
+                <strong id="comparePhilosophy">
+                    DRIVER FOCUSED
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="gtr reveal" id="gtr">
+
+    <div class="section-label">12 / SENNA GTR</div>
+
+    <h2>
+        NASCIDA<br>
+        PARA A PISTA.
+    </h2>
+
+    <p>
+        A Senna GTR leva a filosofia da Senna ainda mais longe,
+        sendo desenvolvida exclusivamente para circuitos fechados.
+    </p>
+
+    <button id="gtrBtn" class="main-btn">
+        DESCUBRA A GTR
+    </button>
+
+</section>
+
+
+<section class="technical-table-section reveal">
+
+    <div class="section-label">13 / TECHNICAL DATA</div>
+
+    <h2>
+        FICHA<br>
+        TÉCNICA.
+    </h2>
+
+    <div class="technical-table">
+
+        <div>
+            <span>MOTOR</span>
+            <strong>V8 4.0L BITURBO</strong>
+        </div>
+
+        <div>
+            <span>CILINDRADA</span>
+            <strong>3.994 CC</strong>
+        </div>
+
+        <div>
+            <span>POTÊNCIA</span>
+            <strong>800 PS</strong>
+        </div>
+
+        <div>
+            <span>TORQUE</span>
+            <strong>800 NM</strong>
+        </div>
+
+        <div>
+            <span>TRANSMISSÃO</span>
+            <strong>7 SPEED SSG</strong>
+        </div>
+
+        <div>
+            <span>TRAÇÃO</span>
+            <strong>TRASEIRA</strong>
+        </div>
+
+        <div>
+            <span>0–100 KM/H</span>
+            <strong>2.8 S</strong>
+        </div>
+
+        <div>
+            <span>0–200 KM/H</span>
+            <strong>6.8 S</strong>
+        </div>
+
+        <div>
+            <span>VELOCIDADE MÁXIMA</span>
+            <strong>335 KM/H</strong>
+        </div>
+
+        <div>
+            <span>PESO SECO MÍNIMO</span>
+            <strong>1.198 KG</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="curiosities reveal">
+
+    <div class="section-label">14 / CURIOSITIES</div>
+
+    <h2>
+        DETALHES<br>
+        ESCONDIDOS.
+    </h2>
+
+    <div class="curiosity-grid">
+
+        <div
+            class="curiosity"
+            data-text="A McLaren Senna foi batizada em homenagem ao lendário piloto brasileiro Ayrton Senna."
+        >
+
+            <span>01</span>
+
+            <h3>O NOME</h3>
+
+            <p>Descubra</p>
+
+        </div>
+
+        <div
+            class="curiosity"
+            data-text="A posição de condução e a visibilidade foram pensadas para colocar o piloto no centro da experiência."
+        >
+
+            <span>02</span>
+
+            <h3>O PILOTO</h3>
+
+            <p>Descubra</p>
+
+        </div>
+
+        <div
+            class="curiosity"
+            data-text="A fibra de carbono é utilizada extensivamente para reduzir massa e aumentar a rigidez estrutural."
+        >
+
+            <span>03</span>
+
+            <h3>CARBONO</h3>
+
+            <p>Descubra</p>
+
+        </div>
+
+        <div
+            class="curiosity"
+            data-text="A Senna foi projetada com enorme atenção à aerodinâmica e ao comportamento em alta velocidade."
+        >
+
+            <span>04</span>
+
+            <h3>AERODINÂMICA</h3>
+
+            <p>Descubra</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="easter reveal">
+
+    <div class="section-label">15 / EASTER EGG</div>
+
+    <h2>
+        YOU FOUND IT.
+    </h2>
+
+    <p>
+        BRUCE WOULD BE PROUD.
+    </p>
+
+    <button id="secretBtn" class="secret-btn">
+        PRESS
+    </button>
+
+</section>
+
+
+<section class="final-section reveal">
+
+    <div class="final-content">
+
+        <span>MCLAREN SENNA</span>
+
+        <h2>
+            ENGINEERED<br>
+            FOR EXTREMES.
+        </h2>
+
+        <p>
+            Uma máquina criada para transformar engenharia
+            em emoção.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        McLAREN
+    </div>
+
+    <p>
+        McLaren Senna — projeto educacional desenvolvido
+        em HTML, CSS e JavaScript.
+    </p>
+
+    <p>
+        Projeto de fã, sem afiliação oficial com a McLaren Automotive.
+    </p>
+
+    <span>
+        THE COMPLETE EXPERIENCE
+    </span>
+
+</footer>
+
+
+<div class="modal" id="modal">
+
+    <div class="modal-content">
+
+        <button id="closeModal">×</button>
+
+        <span>DISCOVER</span>
+
+        <h2 id="modalTitle">
+            McLaren Senna
+        </h2>
+
+        <p id="modalText"></p>
+
+    </div>
+
+</div>
+
+
+<div class="secret-message" id="secretMessage">
+
+    <div>
+
+        <button id="closeSecret">×</button>
+
+        <span>SECRET MESSAGE</span>
+
+        <h2>
+            BRUCE WOULD BE PROUD.
+        </h2>
+
+        <p>
+            A engenharia continua contando histórias.
+        </p>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
